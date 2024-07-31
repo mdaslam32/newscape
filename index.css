@@ -1,0 +1,33 @@
+.navbar-brand,
+.nav-link {
+  cursor: pointer;
+}
+
+.newscape:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card:hover {
+  scale: 1.03;
+  transition: 0.5s;
+}
+
+.allShimmer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board {
+  background-image: url("./src/assets/background.jpg");
+  background-attachment: fixed;
+}
